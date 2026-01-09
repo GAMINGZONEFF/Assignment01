@@ -2,6 +2,12 @@
     margin: 0px;
     padding: 0px;
 }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+}
 .navbar{
     max-width: 1360px;
     display: flex;
@@ -33,3 +39,82 @@ ul li a{
     background-color:#30B868;
     border-radius: 4px;
 }
+.navbanner{
+    background-image: url('./img&icn/hero-bg.png');
+    height: 647px;
+    width: 1600px;
+    background-repeat: no-repeat;
+    margin-top: 16px;
+    display: flex;
+}
+ .navbanner-contant{
+    width: 1360px;
+    
+  
+    margin: 115px  auto;
+    align-items: center;
+    justify-items: center;
+    padding: 1px auto;
+
+
+}
+.navbanner-contant .heading p{
+    width: 229px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    color: #30B868;
+    text-align: center;
+    padding: 10px 1px 10px 1px;
+    border-radius: 50px;
+}
+
+}
+.navbanner-contant  h1 { font-size:3em;
+    
+} 
+.heading-info{
+    margin: 16px 0px;
+}
+.p p{
+    color: #FFFFFF;
+    line-height: 28px;
+}
+.navbanner-contant .btnban{
+    margin-top: 16px;
+    display: flex;
+    gap: 16px;
+    
+    
+}
+ .navbanner-contant .btn1{
+     width: 250px;
+     padding: 15px 5px 10px 5px;
+     background-color: #30B868;
+    
+}
+.btn1{
+    font-size: 16px;
+    font-weight: 600px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+    
+
+}
+.btn2{
+    font-size: 16px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+    width: 198px;
+    padding: 16px;
+    background-color:transparent;
+    
+}
+
+
+
+
+
