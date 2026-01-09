@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    max-width: 1360px;
+    display: flex;
+    margin: 0px auto;
+    justify-content:space-between;
+    align-items: center;
+}
+.navlogo{
+    padding: 16px 0px;
+}
+.navmenu{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    margin: 34px 0px;
+    font-size: 16px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navbtn{
+    width: 164px;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 12px 16px;
+    margin: 24px 0px;
+    border: none;
+    background-color:#30B868;
+    border-radius: 4px;
+}
