@@ -300,6 +300,57 @@ display: flex;
     margin-top: 16px;
     color: #627382;
 }
+.footbox{
+    background-color: #001931;
+    width: 1600px;
+    height: 348px;
+    padding-top: 120px;
+}
+ .footer-contant {
+    width: 1360px;
+    height: 64px;
+    
+    margin: 1px auto;
+    display: flex;
+    justify-content:space-between ;
+    
+}
+.foottext { 
+    padding-right: 50px;
+    
+
+}
+.foottext p { color: #FFFFFF;
+    font-size: 20px;
+
+}
+.foottext i {
+    background-color: #F7F6F2;
+    margin-left: 7px;
+    margin-top: 7px;
+    border-radius: 7px;
+
+}
+.copy{
+    width: 1360px;
+    height: 54px;
+
+    margin: 200px 120px 30px 120px;
+}
+.copy  {
+     border-top: 1px solid #4d507c; 
+ text-align: center;
+color:#FAFAFA; 
+padding-top: 20px;
+
+
+
+}
+.copy p {
+    font-size: 16px;
+    
+}
+
 
 
 
