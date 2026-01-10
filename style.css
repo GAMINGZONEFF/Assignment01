@@ -132,6 +132,7 @@ main .bodycard{
     flex-direction: column;
     
     align-items: center;
+    margin: 0px 120px;
 
     
 }
