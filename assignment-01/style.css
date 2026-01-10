@@ -81,6 +81,11 @@ ul li a{
 .p p{
     color: #FFFFFF;
     line-height: 28px;
+    
+    
+}
+.navbanner-contant .p{
+    margin-bottom: 20px;
 }
 .navbanner-contant .btnban{
     margin-top: 16px;
@@ -95,6 +100,7 @@ ul li a{
      background-color: #30B868;
     
 }
+
 .btn1{
     font-size: 16px;
     font-weight: 600px;
@@ -116,12 +122,83 @@ ul li a{
     background-color:transparent;
     
 }
-main .bodycardhing h1{
-    font-size: 24px;
-    text-align: center;
-    width: 1360px;
+main .bodycard{
+    max-width: 1600px;
+    max-height: 448px;
+    
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+
+    
 }
-main .bodycardhing p{}
+main .bodycardhing{
+    width: 1360px;
+    margin: 44px auto;
+   
+}
+main .bodycardhing .p11{
+    font-size: 48px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    
+}
+main .bodycardhing .psmall{
+    text-align: center;
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+
+}
+ .bodycard .cards {
+    display: flex;
+    width: 1360px;
+    gap: 24px;
+    margin-top: 44px;
+ }
+ .bodycard .cards .card-itms{
+    width: 322px;
+    height: 250px;
+    box-shadow: #bdc8d1 0px 0px 4px 0px;
+    border-radius: 5px;
+
+    
+    
+  
+ }
+ .bodycard .cards .card-itms img{
+    width: 32px;
+    
+    
+ }
+ .bodycard .cards .card-itms .imgbc{
+background-color: #F95555;
+width: 60px;
+height: 60px;
+display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 70px;
+    margin-left :131px;
+    margin-bottom: 16px;
+ }
+ .bodycard .cards .card-itms h3 {
+    text-align: center;
+ }
+ .bodycard .cards .card-itms p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    color:#627382 ;
+    margin: 16px 24px 0px 24px;
+    
+ }
+
+
+
 
 
 
