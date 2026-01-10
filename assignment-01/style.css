@@ -58,6 +58,8 @@ ul li a{
 
 
 }
+
+
 .navbanner-contant .heading p{
     width: 229px;
     background-color: #FFFFFF;
@@ -68,8 +70,9 @@ ul li a{
     border-radius: 50px;
 }
 
-}
-.navbanner-contant  h1 { font-size:3em;
+
+.navbanner-contant  .heading-info p { font-size:72px;
+    font-weight: bold;
     
 } 
 .heading-info{
@@ -113,6 +116,13 @@ ul li a{
     background-color:transparent;
     
 }
+main .bodycardhing h1{
+    font-size: 24px;
+    text-align: center;
+    width: 1360px;
+}
+main .bodycardhing p{}
+
 
 
 
